@@ -4,6 +4,11 @@ author: "Witek ten Hove"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 bibliography: ["bibliography.bibtex"]
 link-citations: true
+output: 
+  html_document: 
+    number_sections: yes
+    theme: cosmo
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
