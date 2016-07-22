@@ -1,0 +1,29 @@
+---
+title: "Handleiding Minor Smart Industry"
+author: "Witek ten Hove"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: ["bibliography.bibtex"]
+link-citations: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("Diagram1.R")
+```
+# Inleiding
+
+De deelnemers van de minor Smart Industry zullen op houding, vaardigheden en kennis worden beoordeeld.
+
+Om een goede werk- en studiehouding te bevorderen zijn ter motiviatie elementen uit de gamification theorie [@groh2012gamification] verwerkt in het curriculum:
+
+1. **P** urpose - bij onderdelen van het zelfstudietraject zal de koppeling met projecten impliciet blijken of expliciet worden genoemd.
+2. **A** utonomy - het zelfstudietraject hoeft niet in een bepaalde volgorde te worden gevolgd. Afhankelijk van het niveau van de deelnemer kunnen bepaalde onderdelen worden overgeslagen, zodat hij zelf zijn uitdagingsniveau kan bepalen en binnen zijn flow channel kan blijven [@shernoff2003student].
+3. **M** astery - De deelnemer wordt door middel van badges en certificaten gedurende het traject beloond voor het behalen van kennisniveau's of vaardigheden.
+
+Om uitstelgedrag te ontmoedigen zullen de studenten in projectteams samenwerken volgende de Scrum methode [@sutherland2014scrum]. 
+
+```{r echo=FALSE}
+render_graph(graph)
+```
+
+# Bibliografie
